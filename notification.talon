@@ -22,3 +22,5 @@ os: mac
 ^(note | notification) center$:
     user.notification_center()
     user.notifications_update()
+
+^clear notes$: user.notification_action(0, "clear All")
