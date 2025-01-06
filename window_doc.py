@@ -12,7 +12,9 @@ default_ctx.matches = r"""
 os: mac
 """
 
-OPEN_CMD_PATH = "/usr/bin/open"
+# I changed this to VSCode instead
+# OPEN_CMD_PATH = "/usr/bin/open"
+OPEN_CMD_PATH = "/opt/homebrew/bin/code"
 
 
 @mod.action_class
